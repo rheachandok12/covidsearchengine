@@ -1,0 +1,70 @@
+
+
+body{
+	background:url("covid.jpg");
+	background-size: cover;
+}
+#content{
+	text-align: center;
+	padding-top: 20%;
+}
+
+.searchbar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+	width:100%;
+}
+
+
+h1,h4{
+
+	color:white;
+}
+
+h1{
+	 font-family: Impact, Charcoal, sans-serif;
+	
+  	 text-shadow: 2px 2px 8px #000000;
+
+  	 font-size: 350%;
+
+}
+
+.searchbar .Button1{
+
+    color: #4c90f6;
+    background-color: #121212;
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: progress;
+    outline: none;
+
+}
+
+.searchbar .box {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height: 50px;
+    border-radius: 100px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 22px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+}
+
+
+
+
+
